@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asma Ul Husna Tahir — Portfolio</title>
+  <meta name="description" content="Portfolio of Asma Ul Husna Tahir — web developer. Projects, skills and contact.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="inner">
+      <div class="brand">
+        <h1>Asma-ul-Husna Tahir</h1>
+        <p class="tag">Final-year Information Technology student and aspiring Web Developer</p>
+      </div>
+
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Toggle navigation">☰</button>
+      <nav id="mainNav" class="main-nav" role="navigation">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#learning">Learning</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="controls">
+        <button id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="panel" aria-labelledby="about-title">
+      <h2 id="about-title">About Me</h2>
+      <p>A self-motivated and detail-oriented final-year IT student with hands-on experience in front-end development and web design. I enjoy creating modern user experiences, solving problems, and building applications that deliver value for users.</p>
+    </section>
+
+    <section id="education" class="panel" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <div class="card education-card">
+        <h3>Bachelor of Science in Information Technology</h3>
+        <p>Benazir Bhutto Shaheed University Lyari — 2022–2026</p>
+      </div>
+    </section>
+
+    <section id="projects" class="panel" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <div class="projects" id="projectList" aria-live="polite"></div>
+    </section>
+
+    <section id="skills" class="panel" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <ul class="skills" aria-label="Skill list">
+        <li>HTML &amp; CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Git &amp; GitHub</li>
+        <li>UI/UX Design</li>
+        <li>Agile Collaboration</li>
+      </ul>
+    </section>
+
+    <section id="certifications" class="panel" aria-labelledby="certifications-title">
+      <h2 id="certifications-title">Certifications</h2>
+      <ul class="certifications">
+        <li>Google IT Automation with Python — In Progress</li>
+        <li>Google Project Management Certificate — In Progress</li>
+      </ul>
+    </section>
+
+    <section id="learning" class="panel" aria-labelledby="learning-title">
+      <h2 id="learning-title">Currently Learning</h2>
+      <ul class="learning-list">
+        <li>Python programming through Google IT Automation with Python</li>
+        <li>Front-end web development with HTML, CSS, and JavaScript</li>
+        <li>UI/UX design and modern user experience principles</li>
+        <li>Agile project management methodologies</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="panel" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <form id="contactForm" class="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="submit">Send</button>
+        <div id="formStatus" role="status" aria-live="polite"></div>
+      </form>
+
+      <p class="links">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=asmatahir097@gmail.com" target="_blank" rel="noopener">Email</a> ·
+        <a href="https://github.com/asmaatahir" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/asma-ul-husna-tahir-4771a6378" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="inner">
+      <p>© 2026 Asma Ul Husna Tahir</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
